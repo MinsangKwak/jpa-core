@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dedc0b8-e161-40f4-9300-be0e22fdb50f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersistenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab0f3fec-1c3a-40e9-b2c1-9032d3b8129b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab0f3fec-1c3a-40e9-b2c1-9032d3b8129b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EntityStateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +86,7 @@
     "Gradle.PersistenceTest.test2.executor": "Debug",
     "Gradle.PersistenceTest.test4.executor": "Run",
     "Gradle.PersistenceTest.test6.executor": "Debug",
+    "Gradle.PersistenceTest.test8.executor": "Debug",
     "JPA.DatabaseSchemaImportDialog": "ab0f3fec-1c3a-40e9-b2c1-9032d3b8129b",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -110,31 +110,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PersistenceTest.test6">
-    <configuration name="PersistenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;PersistenceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.PersistenceTest.test8">
     <configuration name="PersistenceTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -231,6 +207,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="PersistenceTest.test8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;PersistenceTest.test8&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="aws.lambda" factoryName="Remote">
       <option name="credentialProviderId" />
       <option name="regionId" />
@@ -241,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PersistenceTest.test8" />
         <item itemvalue="Gradle.PersistenceTest.test6" />
         <item itemvalue="Gradle.PersistenceTest.test4" />
         <item itemvalue="Gradle.PersistenceTest.test2" />
         <item itemvalue="Gradle.PersistenceTest.test1" />
-        <item itemvalue="Gradle.PersistenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +261,7 @@
       <workItem from="1704812549342" duration="1242000" />
       <workItem from="1705152918491" duration="2000" />
       <workItem from="1705152931124" duration="2870000" />
-      <workItem from="1705193162799" duration="2249000" />
+      <workItem from="1705193162799" duration="3839000" />
     </task>
     <servers />
   </component>
@@ -278,6 +278,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/PersistenceTest.java</url>
           <line>137</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PersistenceTest.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
